@@ -1,0 +1,16 @@
+# 1. Actualizar main
+git checkout main
+git pull origin main
+
+# 2. Crear feature branch
+git checkout -b feature/nueva-funcionalidad
+
+# 3. Desarrollar y commitear
+git add .
+git commit -m "feat: implementar nueva funcionalidad"
+
+# 4. Rebase antes de PR
+git rebase main
+
+# 5. Push y crear PR
+git push origin feature/nueva-funcionalidad

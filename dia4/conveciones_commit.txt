@@ -1,0 +1,7 @@
+feat: agregar nueva funcionalidad
+fix: corregir bug
+docs: actualizar documentación
+style: cambios de formato
+refactor: refactorización de código
+test: agregar o modificar tests
+chore: tareas de mantenimiento

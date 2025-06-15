@@ -1,0 +1,15 @@
+# Error: "Your branch is ahead of origin/main by X commits"
+git rebase origin/main
+
+# Error: "Merge conflict in file.txt"
+# 1. Abrir archivo, resolver marcadores
+# 2. git add archivo.txt
+# 3. git rebase --continue
+
+# Error: "Detached HEAD state"
+git checkout main
+git checkout -b new-branch <commit-hash>
+
+# Revertir todo a estado anterior
+git reflog
+git reset --hard HEAD@{n}
